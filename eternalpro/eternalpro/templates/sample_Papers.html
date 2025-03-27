@@ -1,0 +1,109 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="../images/icon/favicon.png">
+	<title>sample Papers</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'subjects.css'%}">
+	<script type="text/javascript" src="{% static 'script.js'%}"></script>
+</head>
+<body>
+<div class="title2" id="sample_papers">
+    <span>GATE Sample Papers 2024-2017</span>
+    <div class="shortdesc2">
+        <p>Practice with previous year GATE question papers</p>
+    </div>
+</div>
+<header>
+    <div class="nav" id="nav">
+        <div id="learned-logo">
+        <a href="../index.html"><img src="{% static 'images/icon/logo.png' %}" style="width: 120px;"></a></div>
+        <div class="switch-tab" id="switch-tab" onclick="switchTAB()"><img src="{% static 'images/icon/menu.png'%}"></div>
+        <ul id="list-switch">
+            <li><a href="{% url 'jee'%}"><img src="{% static 'images/courses/d1.png'%}" class="icon">JEE</a></li>
+            <li><a href="{% url 'gate'%}"><img src="{% static 'images/courses/paper.png'%}" class="icon">GATE</a></li>
+            <li><a href="{% url 'computer_courses'%}"><img src="{% static 'images/courses/computer.png'%}" class="icon">Computer Courses</a></li>
+            <li><a href="{% url 'data_structures'%}"><img src="{% static 'images/courses/data.png'%}" class="icon">Data Structures</a></li>
+            <li><a href="{% url 'algorithms'%}"><img src="{% static 'images/courses/algo.png'%}" class="icon">Algorithm</a></li>
+                   </ul>
+        
+    </div>
+</header>
+<br><br><br><br><br>
+
+<div class="sample">
+    <ul>
+        <li><a href="{% static  'samplePapers/gate-2024.pdf'%}" target="_blank">GATE 2025 Computer Science</a></li>
+        <li><a href="{% static 'samplePapers/gate-2024.pdf'%}" target="_blank">GATE 2024 Computer Science</a></li>
+        <li><a href="{% static 'samplePapers/gate-2024.pdf'%}" target="_blank">GATE 2023 Computer Science</a></li>
+    </ul>
+    <ul>
+        <li><a href="{% static 'samplePapers/gate-2024.pdf'%}" target="_blank">GATE 2022 Computer Science</a></li>
+        <li><a href="{% static 'samplePapers/gate-2024.pdf'%}" target="_blank">GATE 2021 Computer Science</a></li>
+        <li><a href="{% static 'samplePapers/gate-2024.pdf'%}" target="_blank">GATE 2020 Computer Science</a></li>
+        
+    </ul>
+    <ul>
+        <li><a href="{% static 'samplePapers/gate-2024.pdf'%}" target="_blank">GATE 2019 Computer Science</a></li>
+        <li><a href="{% static 'samplePapers/gate-2024.pdf'%}" target="_blank">GATE 2018 Computer Science</a></li>
+        <li><a href="{% static 'samplePapers/gate-2024.pdf'%}" target="_blank">GATE 2017 Computer Science</a></li>
+    </ul>
+</div>
+<div class="title2" id="sample_papers">
+    <span> JEE Sample Papers 2025-14</span>
+    <div class="shortdesc2">
+        <p>Practice more and more question papers</p>
+    </div>
+</div>
+
+<div class="sample">
+    <ul>
+        <li><a href="{% static 'samplePapers/jee-2025.pdf'%}" target="_blank">Sample Paper 2025 </a></li>
+        <li><a href="{% static 'samplePapers/jee-2025.pdf'%}" target="_blank">Sample Paper 2024 </a></li>
+        <li><a href="{% static 'samplePapers/jee-2025.pdf'%}"target="_blank">Sample Paper 2023</a></li>
+    </ul>
+    <ul>
+        <li><a href="{% static 'samplePapers/jee-2025.pdf'%}" target="_blank">Sample Paper 2022 </a></li>
+        <li><a href="{% static 'samplePapers/jee-2025.pdf'%}" target="_blank">Sample Paper 2021 </a></li>
+        <li><a href="{% static 'samplePapers/jee-2025.pdf'%}" target="_blank">Sample Paper 2020</a></li>
+    </ul>
+    
+</div>
+<div class="sample lastSample">
+    <ul>
+        <li><a href="{% static 'samplePapers/jee-2025.pdf'%}" target="_blank">Sample Paper 2019 </a></li>
+        <li><a href="{% static 'samplePapers/jee-2025.pdf'%}" target="_blank">Sample Paper 2018</a></li>
+        <li><a href="{% static 'samplePapers/jee-2025.pdf'%}" target="_blank">Sample Paper 2017</a></li>
+    </ul>
+    <ul>
+        <li><a href="{% static 'samplePapers/jee-2025.pdf'%}" target="_blank">Sample Paper 2016</a></li>
+        <li><a href="{% static 'samplePapers/jee-2025.pdf'%}" target="_blank">Sample Paper 2015 </a></li>
+        <li><a href="{% static 'samplePapers/jee-2025.pdf'%}" target="_blank">Sample Paper 2014</a></li>
+    </ul>
+    <ul>
+        
+        
+    </ul>
+</div>
+
+<footer>
+    <div class="footer-container">
+        <div class="left-col">
+            <img src="../images/icon/logo - Copy.png" style="width: 200px;">
+            <div class="logo"></div>
+            <div class="social-media">
+                <a href="#"><img src="{% static 'images/icon\fb.png'%}"></a>
+                <a href="#"><img src="{% static 'images/icon\insta.png'%}"></a>
+                <a href="#"><img src="{% static 'images/icon\tt.png'%}"></a>
+                <a href="#"><img src="{% static 'images/icon\ytube.png'%}"></a>
+                <a href="#"><img src="{% static 'images/icon\linkedin.png'%}"></a>
+            </div><br><br>
+            <p class="rights-text">Copyright © 2021 Created By kosuri venkat, rohit kumar All Rights Reserved.</p>
+            <br><p><img src="{% static 'images/icon/location.png'%}"> KBN college <br>vijayawada, andhra pradesh-520001</p><br>
+            <p><img src="{% static 'images/icon/phone.png'%}"> +91-7013269473<br><img src="{% static 'images/icon/mail.png'%}">&nbsp; learnedonline9419@gmail.com</p>
+        </div>
+        
+    </div>
+</footer>
+</body>
+</html>

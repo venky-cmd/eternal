@@ -1,0 +1,571 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="../images/icon/favicon.png">
+	<title>Computer Science Courses on LearnEd</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'subjects.css'%}">
+	<script type="text/javascript" src="{% static 'script.js'%}"></script>
+</head>
+<body>
+	
+
+	<header>
+		<div class="nav" id="nav">
+			<div id="learned-logo">
+			<a href="../index.html"><img src="{% static 'images/icon/logo.png' %}" style="width: 120px;"></a></div>
+			<div class="switch-tab" id="switch-tab" onclick="switchTAB()"><img src="{% static 'images/icon/menu.png'%}"></div>
+			<ul id="list-switch">
+				<li><a href="{% url 'jee'%}"><img src="{% static 'images/courses/d1.png'%}" class="icon">JEE</a></li>
+				<li><a href="{% url 'gate'%}"><img src="{% static 'images/courses/paper.png'%}" class="icon">GATE</a></li>
+				<li><a href="{% url 'computer_courses'%}"><img src="{% static 'images/courses/computer.png'%}" class="icon">Computer Courses</a></li>
+				<li><a href="{% url 'data_structures'%}"><img src="{% static 'images/courses/data.png'%}" class="icon">Data Structures</a></li>
+				<li><a href="{% url 'algorithms'%}"><img src="{% static 'images/courses/algo.png'%}" class="icon">Algorithm</a></li>
+							</ul>
+			
+		</div>
+	</header>
+	
+
+
+	<div class="title">
+		<span>Computer Science Courses<br>on Eternal</span>
+		<div class="shortdesc">
+			<p>Learn programming languages and concepts to prepare for a career in<br>hardware or software development</p>
+		</div>
+	</div>
+
+
+<!-- Some KeyWords related to Topic -->
+	<div class="course">
+		<div class="cbox">
+		<div class="det"><a href="#java">Java</a></div>
+		<div class="det"><a href="#c++">C++</a></div>
+		</div>
+		<div class="cbox">
+		<div class="det"><a href="#python">Python</a></div>
+		<div class="det"><a href="#ML">Machine Learning</a></div>
+		<div class="det"><a href="#AI">Artificial Intelligence</a></div>
+		
+		<div class="det"><a href="#CS">Cyber Security</a></div>
+		
+		
+		</div>
+		<div class="cbox">
+		<div class="det"><a href="#html_css">HTML and CSS</a></div>
+		<div class="det"><a href="https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd0044">Full Stack Web Development</a></div>
+		<div class="det"><a href="https://uxplanet.org/what-is-ui-vs-ux-design-and-the-difference-d9113f6612de?gi=6d9d13f4cc95">UI Designing</a></div>
+		
+		<div class="det"><a href="#javascript">JavaScript</a></div>
+		
+		</div>
+	</div>
+
+
+<!-- Courses Available -->
+	
+
+<!-- Videos on JAVA Lectures -->
+	<div class="title2" id="java">
+		<span>Start Programming with Java</span>
+		<div class="shortdesc2">
+			<p>Practice and Practice to become a good Java programmer</p>
+		</div>
+	</div>
+	
+	<center>
+		<div class="ccardbox2">
+			<div class="dcard2"><span class="tag" >1/8</span>
+				<div class="fpart2">
+					<img src="{% static 'images/courses/java-course.jpg'%}">
+					<iframe src="https://www.youtube.com/embed/IsLyduxZ9sc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >2/8</span>
+				<div class="fpart2">
+					<img src="{% static 'images/courses/java-course.jpg'%}">
+					<iframe src="https://www.youtube.com/embed/U_vuESBFEpE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >3/8</span>
+				<div class="fpart2">
+					<img src="{% static 'images/courses/java-course.jpg'%}">
+					<iframe src="https://www.youtube.com/embed/7i8vbPA37y0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >4/8</span>
+				<div class="fpart2">
+					<img src="{% static 'images/courses/java-course.jpg'%}">
+					<iframe src="https://www.youtube.com/embed/FB47F-QIk3k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >5/8</span>
+				<div class="fpart2">
+					<img src="{% static 'images/courses/java-course.jpg'%}">
+					<iframe src="https://www.youtube.com/embed/8qyVcHJ1Et4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >6/8</span>
+				<div class="fpart2">
+					<img src="{% static 'images/courses/java-course.jpg'%}">
+					<iframe src="https://www.youtube.com/embed/N53Vf8HGd-0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >7/8</span>
+				<div class="fpart2">
+					<img src="{% static 'images/courses/java-course.jpg'%}">
+					<iframe src="https://www.youtube.com/embed/slz2Vc904Qg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >8/8</span>
+				<div class="fpart2">
+					<img src="{% static 'images/courses/java-course.jpg'%}">
+					<iframe src="https://www.youtube.com/embed/Q0NVRQP1Z5g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</center>
+	<br><br>
+	<div class="click-me">
+		<a href="https://www.youtube.com/watch?v=IsLyduxZ9sc&list=PLX9Zi6XTqOKQ7TdRz0QynGIKuMV9Q2H8E" target="_blank">Click Here to Watch full playlist</a>
+	</div>
+	
+<!-- Videos on C++ Lectures -->
+
+	<div class="title2" id="c++">
+		<span>Start Programming with C++</span>
+		<div class="shortdesc2">
+			<p>Practice and Practice to become a good C++ programmer</p>
+		</div>
+	</div>
+	<center>
+		<div class="ccardbox2">
+			<div class="dcard2"><span class="tag" >1/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/c-course.jpg'%}">
+					<iframe src="https://www.youtube.com/embed/Iuo9PpGE04Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >2/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/c-course.jpg'%}">
+					<iframe src="https://www.youtube.com/embed/52dHKRD7cdg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >3/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/c-course.jpg'%}">
+					<iframe src="https://www.youtube.com/embed/Iuo9PpGE04Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >4/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/c-course.jpg'%}">
+					<iframe src="https://www.youtube.com/embed/Iuo9PpGE04Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		
+			<div class="dcard2"><span class="tag" >5/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/c-course.jpg'%}">
+					<iframe src="https://www.youtube.com/embed/Iuo9PpGE04Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >6/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/c-course.jpg'%}">
+					<iframe src="https://www.youtube.com/embed/Iuo9PpGE04Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >7/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/c-course.jpg'%}">
+					<iframe src="https://www.youtube.com/embed/Iuo9PpGE04Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >8/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/c-course.jpg'%}">
+					<iframe src="https://www.youtube.com/embed/Iuo9PpGE04Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</center>
+<br><br>
+	<div class="click-me">
+		<a href="https://www.youtube.com/watch?v=Iuo9PpGE04Y&feature=youtu.be" target="_blank">Click Here to Watch full playlist</a>
+	</div>
+	
+<!-- Videos on PYTHON Lectures -->
+
+	<div class="title2" id="python">
+		<span>Start Programming with Python</span>
+		<div class="shortdesc2">
+			<p>Practice and Practice to become a good Python programmer</p>
+		</div>
+	</div>
+	<center>
+		<div class="ccardbox2">
+			<div class="dcard2"><span class="tag" >1/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/python-course.png'%}">
+					<iframe src="https://www.youtube.com/embed/QXeEoD0pB3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >2/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/python-course.png'%}">
+					<iframe src="https://www.youtube.com/embed/QXeEoD0pB3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >3/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/python-course.png'%}">
+					<iframe src="https://www.youtube.com/embed/QXeEoD0pB3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >4/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/python-course.png'%}">
+					<iframe src="https://www.youtube.com/embed/QXeEoD0pB3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		
+			<div class="dcard2"><span class="tag" >5/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/python-course.png'%}">
+					<iframe src="https://www.youtube.com/embed/QXeEoD0pB3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >6/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/python-course.png'%}">
+					<iframe src="https://www.youtube.com/embed/QXeEoD0pB3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >7/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/python-course.png'%}">
+					<iframe src="https://www.youtube.com/embed/QXeEoD0pB3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >8/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/python-course.png'%}">
+					<iframe src="https://www.youtube.com/embed/QXeEoD0pB3E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</center>
+	<div class="click-me">
+		<a href="https://www.youtube.com/watch?v=gmvvaobm7eQ&list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw" target="_blank">Click Here to Watch full playlist</a>
+	</div>
+	<div class="title2" id="ML">
+		<span><centre>Start Machine Learning</span></centre>
+		<div class="shortdesc2">
+
+		</div>
+	</div>
+	<center>
+	
+        <div class="ML" id="ML">
+			<div class="ccardbox2">
+				<div class="dcard2"><span class="tag" >1/8</span>
+					<div class="fpart2"><img src="{% static 'images/courses/ML.jpg'%}">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/gmvvaobm7eQ?si=XTymZH2kQtsRcR3m" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="dcard2"><span class="tag" >2/8</span>
+					<div class="fpart2"><img src="{% static 'images/courses/ML.jpg'%}">
+						<<iframe width="560" height="315" src="https://www.youtube.com/embed/8jazNUpO3lQ?si=3QbFJ2TaaeA-tvIN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="dcard2"><span class="tag" >3/8</span>
+					<div class="fpart2"><img src="{% static 'images/courses/ML.jpg'%}">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/J_LnPL3Qg70?si=8zUPCADoXq2hM-M3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="dcard2"><span class="tag" >4/8</span>
+					<div class="fpart2"><img src="{% static 'images/courses/ML.jpg'%}">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/J_LnPL3Qg70?si=-rVRFMjRyVnB3nIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>					</div>
+				</div>
+			
+				<div class="dcard2"><span class="tag" >5/8</span>
+					<div class="fpart2"><img src="{% static 'images/courses/ML.jpg'%}">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/KfnhNlD8WZI?si=ciwLXcnbEZiGIkIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="dcard2"><span class="tag" >6/8</span>
+					<div class="fpart2"><img src="{% static 'images/courses/ML.jpg'%}">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/KfnhNlD8WZI?si=rqH2yCgMrV7rHCGj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="dcard2"><span class="tag" >7/8</span>
+					<div class="fpart2"><img src="{% static 'images/courses/ML.jpg'%}">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/fwY9Qv96DJY?si=Z2t_mxyYbGrgpTg-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="dcard2"><span class="tag" >8/8</span>
+					<div class="fpart2"><img src="{% static 'images/courses/ML.jpg'%}">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/fwY9Qv96DJY?si=tW7DHqwe3tqietjB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+					</div>
+				</div>
+
+		</div>
+<br><br>
+	<div class="click-me">
+		<a href="https://www.youtube.com/watch?v=gmvvaobm7eQ&list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw" target="_blank">Click Here to Watch full playlist</a>
+	</div>
+	<div class="title2" id="AI">
+		<span><centre>Artificial Intelligence</centre></span>
+		<div class="shortdesc2">
+			<p>Make your data and AI concepts strong...</p>
+		</div>
+	</div>
+	<center>
+		<div class="ccardbox2">
+			<div class="dcard2"><span class="tag" >1/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/AI.jpeg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/J7LqgglEfQw?si=YfKesNnopBiE0Uwg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >2/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/AI.jpeg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/tpDU9UXqsUo?si=nltRDDCFI0cJAwzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >3/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/AI.jpeg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/pcV2lL6yNZ8?si=tM2jKmxX3HDgAxwH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >4/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/AI.jpeg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/GS3HKR6CV8E?si=uCyJcelhAVfCFs11" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >5/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/AI.jpeg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/J7LqgglEfQw?si=-8rUGMcrTf5669Pi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >6/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/AI.jpeg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/TR7iWaN_nHQ?si=g6bc8hKBLqFSkVIX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >7/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/AI.jpeg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/-LT96Et6b0A?si=6cEWnpBJfeNuGyA_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >8/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/AI.jpeg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/-LT96Et6b0A?si=cRsmRK2zEfABI2W0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+			</div>
+		</div>
+	</center>
+
+		
+			
+<br><br>
+	<div class="click-me">
+		<a href="https://www.youtube.com/watch?v=J7LqgglEfQw&list=PL9zFgBale5fug7z_YlD9M0x8gdZ7ziXen&index=1" target="_blank">Click Here to Watch full playlist</a>
+	</div>
+		</div>
+	
+	
+<!-- Videos on ALGORITHM Lectures -->
+
+	
+	
+<!-- Videos on HTML and CSS Lectures -->
+
+	<div class="title2" id="html_css">
+		<span>Start Programming with HTML and CSS</span>
+		<div class="shortdesc2">
+			<p>Show your creativity and uniqueness</p>
+		</div>
+	</div>
+	<center>
+		<div class="ccardbox2">
+			<div class="dcard2"><span class="tag" >1/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/web-course.jpg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/v8jDnBYc0bs?si=bafhSufDvmy2lMjJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >2/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/web-course.jpg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/4OMdzHnys9o?si=wq7vzZJr11-BleXz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >3/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/web-course.jpg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/4OMdzHnys9o?si=UOHmAg50EZ-7gDTY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >4/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/web-course.jpg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/pAl7TrV7gpg?si=0SsLFhcXnOHiJ7pb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+		
+			<div class="dcard2"><span class="tag" >5/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/web-course.jpg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/DNkRpjBRuro?si=XMuHo74Zq3WsHOjr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >6/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/web-course.jpg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/6xgLY8kSXO8?si=Qk0ddXJCuKgpQume" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >7/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/web-course.jpg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/0PUmPHkQfcE?si=wvh8T321rm-wabFn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >8/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/web-course.jpg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/0PUmPHkQfcE?si=nR6_1k_zIvoa85Wx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</center>
+
+<br><br>
+	<div class="click-me">
+		<a href="https://www.youtube.com/watch?v=TKYsuU86-DQ" target="_blank">Click Here to Watch full playlist</a>
+	</div>
+	
+<!-- Videos on JAVASCRIPT Lectures -->
+
+	<div class="title2" id="javascript">
+		<span>Start Programming with JavaScript</span>
+		<div class="shortdesc2">
+			<p>Use this to build great projects</p>
+		</div>
+	</div>
+	<center>
+		<div class="ccardbox2">
+			<div class="dcard2"><span class="tag" >1/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/javascript-course.jpg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/POPLF-Qc0OU?si=2W4rWMGX6MmMlVcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >2/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/javascript-course.jpg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/POPLF-Qc0OU?si=807oDj_UjSK_q_-K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >3/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/javascript-course.jpg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/TOkU5HxES1o?si=NoBb60JZJ7GlX8k3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >4/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/javascript-course.jpg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/Wsy7nhFnfbM?si=ZHags4XEuMgfvumh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+		
+			<div class="dcard2"><span class="tag" >5/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/javascript-course.jpg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/Wsy7nhFnfbM?si=4jccaYf84gJ7nXkT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >6/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/javascript-course.jpg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/wFiVtqe1osM?si=09LNCbmKJBhhUqHe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >7/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/javascript-course.jpg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/gG0ynX_Sfx4?si=-nY2ohNXLSj2Mu5B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>	
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >8/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/javascript-course.jpg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/gG0ynX_Sfx4?si=j8E9jAz-98Kv6ZI3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</center>
+<br><br>
+	<div class="click-me">
+		<a href="https://www.youtube.com/watch?v=uDwSnnhl1Ng" target="_blank">Click Here to Watch full playlist</a>
+	</div>
+	
+	<div class="title2" id="CS">
+		<span>Start Cyber Security</span>
+		<div class="shortdesc2">
+			<p>Use this to build great projects</p>
+		</div>
+	</div>
+	<center>
+		<div class="ccardbox2">
+			<div class="dcard2"><span class="tag" >1/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/javascript-course.jpg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/POPLF-Qc0OU?si=2W4rWMGX6MmMlVcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >2/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/javascript-course.jpg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/POPLF-Qc0OU?si=807oDj_UjSK_q_-K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >3/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/javascript-course.jpg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/TOkU5HxES1o?si=NoBb60JZJ7GlX8k3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >4/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/javascript-course.jpg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/Wsy7nhFnfbM?si=ZHags4XEuMgfvumh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+		
+			<div class="dcard2"><span class="tag" >5/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/javascript-course.jpg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/Wsy7nhFnfbM?si=4jccaYf84gJ7nXkT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >6/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/javascript-course.jpg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/wFiVtqe1osM?si=09LNCbmKJBhhUqHe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >7/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/javascript-course.jpg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/gG0ynX_Sfx4?si=-nY2ohNXLSj2Mu5B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>	
+				</div>
+			</div>
+			<div class="dcard2"><span class="tag" >8/8</span>
+				<div class="fpart2"><img src="{% static 'images/courses/javascript-course.jpg'%}">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/gG0ynX_Sfx4?si=j8E9jAz-98Kv6ZI3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</center>
+<br><br>
+	<div class="click-me">
+		<a href="https://www.youtube.com/watch?v=uDwSnnhl1Ng" target="_blank">Click Here to Watch full playlist</a>
+	</div>
+	
+<!-- PROJECTS -->
+	
+<!-- FOOTER -->
+<footer>
+	<div class="footer-container">
+		<div class="left-col">
+			<img src="../images/icon/logo - Copy.png" style="width: 200px;">
+			<div class="logo"></div>
+			<div class="social-media">
+				<a href="#"><img src="{% static 'images/icon\fb.png'%}"></a>
+				<a href="#"><img src="{% static 'images/icon\insta.png'%}"></a>
+				<a href="#"><img src="{% static 'images/icon\tt.png'%}"></a>
+				<a href="#"><img src="{% static 'images/icon\ytube.png'%}"></a>
+				<a href="#"><img src="{% static 'images/icon\linkedin.png'%}"></a>
+			</div><br><br>
+			<p class="rights-text">Copyright © 2021 Created By Roshan Kumar, Abhishek Dulat All Rights Reserved.</p>
+			<br><p><img src="../images/icon/location.png"> Lovely Professional University<br>Phagwara, Punjab-144401</p><br>
+			<p><img src="../images/icon/phone.png"> +91-1234-567-890<br><img src="{% static 'images/icon/mail.png'%}">&nbsp; learnedonline9419@gmail.com</p>
+		</div>
+		<div class="right-col">
+			<h1 style="color: #fff">Our Newsletter</h1>
+			<div class="border"></div><br>
+			<p>Enter Your Email to get our News and updates.</p>
+			<form class="newsletter-form">
+				<input class="txtb" type="email" placeholder="Enter Your Email">
+				<input class="btn" type="submit" value="Submit">
+			</form>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>

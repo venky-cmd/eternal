@@ -1,0 +1,77 @@
+{%load static%}
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="png" href="../images/icon/favicon.png">
+	<title>Algorithms</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'subjects.css'%}">
+	<script type="text/javascript" src="{% static 'script.js'%}"></script>
+</head>
+<body>
+	<header>
+		<div class="nav" id="nav">
+			<div id="learned-logo">
+			<a href="../index.html"><img src="{% static 'images/icon/logo.png' %}" style="width: 120px;"></a></div>
+			<div class="switch-tab" id="switch-tab" onclick="switchTAB()"><img src="{% static 'images/icon/menu.png'%}"></div>
+			<ul id="list-switch">
+				<li><a href="{% url 'jee'%}"><img src="{% static 'images/courses/d1.png'%}" class="icon">JEE</a></li>
+				<li><a href="{% url 'gate'%}"><img src="{% static 'images/courses/paper.png'%}" class="icon">GATE</a></li>
+				<li><a href="{% url 'computer_courses'%}"><img src="{% static 'images/courses/computer.png'%}" class="icon">Computer Courses</a></li>
+				<li><a href="{% url 'data_structures'%}"><img src="{% static 'images/courses/data.png'%}" class="icon">Data Structures</a></li>
+				<li><a href="{% url 'algorithms'%}"><img src="{% static 'images/courses/algo.png'%}" class="icon">Algorithm</a></li>
+				
+			</ul>
+			
+		</div>
+	</header>
+<br><br><br><br><br>
+
+<center>
+    <div class="ccardbox2">
+        <div class="dcard2"><span class="tag" >1/8</span>
+            <div class="fpart2"><img src="{% static 'images/courses/algo-course.jpg'%}">
+                <iframe src="https://www.youtube.com/embed/0IAPZzGSbME" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="dcard2"><span class="tag" >2/8</span>
+            <div class="fpart2"><img src="{% static 'images/courses/algo-course.jpg'%}">
+                <iframe src="https://www.youtube.com/embed/0IAPZzGSbME" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="dcard2"><span class="tag" >3/8</span>
+            <div class="fpart2"><img src="{% static 'images/courses/algo-course.jpg'%}">
+                <iframe src="https://www.youtube.com/embed/0IAPZzGSbME" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="dcard2"><span class="tag" >4/8</span>
+            <div class="fpart2"><img src="{% static 'images/courses/algo-course.jpg'%}">
+                <iframe src="https://www.youtube.com/embed/0IAPZzGSbME" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    
+        <div class="dcard2"><span class="tag" >5/8</span>
+            <div class="fpart2"><img src="{% static 'images/courses/algo-course.jpg'%}">
+                <iframe src="https://www.youtube.com/embed/0IAPZzGSbME" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="dcard2"><span class="tag" >6/8</span>
+            <div class="fpart2"><img src="{% static 'images/courses/algo-course.jpg'%}">
+                <iframe src="https://www.youtube.com/embed/0IAPZzGSbME" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="dcard2"><span class="tag" >7/8</span>
+            <div class="fpart2"><img src="{% static 'images/courses/algo-course.jpg'%}">
+                <iframe src="https://www.youtube.com/embed/0IAPZzGSbME" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="dcard2"><span class="tag" >8/8</span>
+            <div class="fpart2"><img src="{% static 'images/courses/algo-course.jpg'%}">
+                <iframe src="https://www.youtube.com/embed/0IAPZzGSbME" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</center>
+<br><br>
+<div class="click-me">
+    <a href="https://www.youtube.com/watch?v=0IAPZzGSbME" target="_blank">Click Here to Watch full playlist</a>
+</div>
